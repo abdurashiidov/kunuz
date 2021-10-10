@@ -1,0 +1,112 @@
+.main__news--right--choice{
+    display: flex;
+    flex-direction: column;
+    width: 997px;
+    margin: 0;
+    padding: 0;
+
+    &__wrap{
+        display: flex;
+        justify-content: space-between;
+
+        &--image{
+            margin: 0;
+            padding: 0; 
+            display: flex;
+     
+            &--ellipse{
+             margin: 0;
+             padding: 0;
+             margin-top: 3px;
+             margin-right: 10px;
+             font-family: Montserrat;
+             font-style: normal;
+             font-weight: bold;
+             font-size: 18px;
+             line-height: 22px;
+             color: #000000; 
+             }
+
+            &--heading{
+                margin: 0;
+                padding: 0;
+            }
+     
+     
+        }
+    }
+
+    &--left--atribut{
+        font-family: "Montserrat", "Arial", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        text-decoration-line: underline;
+        color: #17206A;
+    }
+
+    &--list{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0;
+    }
+
+    &--list--item{
+        width: 319px;
+        list-style-type: none;
+
+        &--atribut{
+            text-decoration: none;
+
+            &--padding{
+                font-family: "Montserrat", "Arial", sans-serif;
+                position: relative;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 15px;
+                color: #000000;
+                opacity: 0.5;
+                width: 150px;
+                height: 15px;
+                margin: 0;
+                padding: 0;
+                // margin-right: 20px;
+                left: 20px;
+                margin-bottom: 10px;
+                margin-top: 12px;
+
+                &::after{
+                    content: "";
+                    background-image: url(./../../img/kalendar.png);
+                    background-repeat: no-repeat;
+                    display: block;
+                    background-size: cover;
+                    width: 13.5px;
+                    height: 15px;
+                    position: relative;
+                    // background-position-y: -10px;
+                    // top: -15px;
+                    bottom: 15px;
+                    right: 20px;
+                }
+            }
+
+            &--text{
+                font-family: "Montserrat", "Arial", sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 20px;
+                color: #000000;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+    
+    
+
+    
+}

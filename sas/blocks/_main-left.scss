@@ -1,0 +1,91 @@
+.wrapper-sides{
+    display: flex;
+}
+// .active-hr{
+//     border-top: 1px solid #CECECE;
+//     margin-top: 18px;
+
+// }
+
+.main__news-left{
+    max-width: 319px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 15px;
+
+    &__wrap-head{
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+        
+
+        &__img{
+            margin-right: 10px;      
+
+        }
+
+        &__heading{
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    &__wrap-left{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+
+        &__p{
+            font-family: "Montserrat" "Arial", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 21px;
+            color: #000000;
+            text-decoration: none;
+            border-bottom: 1px solid #CECECE;
+            padding-bottom: 18px;
+            margin-top: 20px;
+        }
+
+        &__list{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        &__item{
+            border-bottom: 1px solid #CECECE;
+            margin-bottom: 18px;
+            padding-bottom: 10px;
+
+            &__span{
+                font-family: "Montserrat", "Arial", sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 15px;
+                color: #000000;
+                opacity: 0.5;
+                margin: 0;
+                padding: 0;
+                padding-bottom: 10px;
+            }
+
+            &-text{
+                font-family: "Montserrat", "Arial", sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 21px;
+                color: #000000;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+
+    
+}

@@ -1,0 +1,66 @@
+.main__news--right{
+    display: flex;
+    width: 996px;
+    height: 333px;
+    background-color: #EFF2F8;
+    margin-top: 15px;
+
+    &--city{
+        margin-right: 26.55px;
+    }
+}
+.main__news--left--text{
+    margin-top: 25px;
+    width: 442px;
+    height: 156px;
+
+    &--image{
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat" , "Arial" , sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+        opacity: 0.5;
+        margin-left: 25px;
+
+        &::after{
+            margin: 0;
+            padding: 0;
+            background-image: url(./../../img/kalendar.png);
+            content: "";
+            width: 16px;
+            height: 17px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: block;
+            position: relative;
+            bottom: 15px;
+        }
+    }
+
+    &--heading{
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat" , "Arial" , sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 29px;
+        color: #000000;
+        margin-bottom: 16px;
+    }
+
+    &--padding{
+        margin: 0 ;
+        padding: 0;
+        font-family: "Montserrat" , "Arial" , sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 26px;
+        color: #000000;
+    }
+}

@@ -1,0 +1,129 @@
+.header{
+    margin: 0 auto;
+    display: flex;
+    max-width: 1336px;
+    height: 54px;
+    align-self: center;
+    // justify-content: space-between;
+    // flex-direction: column;
+    margin: auto 0;
+    align-items: center ;
+    justify-content: space-between;
+
+    &__left-side{
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    
+    &__logo{
+        display: block;
+        // text-align: left;
+        margin-right: 50px;
+        // margin-top: 12px;
+
+    }
+
+    &__list{
+        display: flex;  
+        width: 829px;
+        height: 17px;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        margin-right: 180px; 
+
+        
+    }
+
+    &__item{
+        list-style-type: none;
+
+        
+        &-a{
+            font-family: "Montserrat", "Arial", sans-serif;
+            text-decoration: none;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+        }
+    }
+
+    &__right-side{
+        text-align: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 20px;
+
+
+        &__wrap-language{
+            background: #E7E7E7;
+            border-radius: 40px;
+            width: 110px;
+            height: 27px;
+        }
+        
+        &-language__text{
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat", "Arial", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 15px;
+            color: #000000;
+            margin-right: 35px;
+            padding-top: 5px;
+        }
+    }
+
+
+    &__right-side-language__link{
+        border: 1px solid  #F9F9F9;
+        background-color: #F9F9F9;
+        position: relative;
+        border-radius: 50%;
+        width: 27px;
+        height: 27px;
+        display: block;
+        bottom: 20px;
+        left: 41.5px;
+        margin: 0 auto;
+
+        &-img{
+            padding: 10px;
+        }
+    }
+
+
+    &__right-side__wrap-img{
+        background: #E6E6E6;
+        border-radius: 15px;
+        width: 27px;
+        height: 27px;
+        display: block;
+        margin-left: 8px;
+
+        &-lupa{
+            margin: 7px;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

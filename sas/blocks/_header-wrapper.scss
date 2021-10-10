@@ -1,0 +1,64 @@
+.header__wrapper{
+    margin: 0 ;
+    padding: 0;
+    display: flex;
+    width: 1336px;
+    height: 43px;
+    background-color:#F0F0F0;
+    background-image: url(../../img/hududlar.png);
+    background-repeat: no-repeat;
+    margin-top: 12px;
+
+
+    &--atribut{
+    display: flex;
+
+        &--image{
+            font-family: "Montserrat";
+            padding: 10px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+            color: #FFFFFF;
+            position: relative;
+            top: 10px;
+            list-style-type: none;
+            text-decoration: none;
+
+
+        }
+    }
+
+    &--list{
+        display: flex;
+        justify-content: space-between;
+        width: 1109px;
+        height: 15px;
+        position: relative;
+        bottom: 2px;
+
+        &--item{
+        display: flex;
+        list-style-type: none;
+
+            &--atribut{
+                text-decoration: none;
+                font-family: "Montserrat" , "Arial" , sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 15px;
+                color: #000000;
+
+                &--headering{
+                    border: 0px solid #585858;
+                    transform: rotate(90deg);
+                    width: 12px;
+                    height: 1.1px;
+                    background-color: #585858;
+                }
+            }
+        }
+    }
+}

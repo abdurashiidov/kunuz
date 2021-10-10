@@ -1,0 +1,89 @@
+.main__news--right--nature{
+    display: flex;
+    padding-top: 30px;
+    position: relative;
+    right: 20px;
+
+    &--list{
+        width: 996px;
+        height: 256px;
+        display: flex;
+        flex-wrap: wrap;
+        margin:0;
+        padding: 0;
+
+
+        &--item{
+            display: flex;
+            width: 448px;
+            height: 113px;
+            margin-left: 60px;
+            
+
+            &--atribut{
+                margin: 0;
+                padding: 0;
+                padding-left: 15px;
+                text-decoration: none;
+                margin-right: 20px;
+                font-family: "Montserrat" , "Arial" , sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 15px;
+                color: #000000;
+                
+                
+                &-padding{
+                    opacity: 0.5;
+                    margin: 0;
+                    padding: 0;
+                    margin-left: 20px;
+                    
+                    
+                    &::after{
+                        content: "";
+                        background-image: url(./../../img/kalendar.png);
+                        background-repeat: no-repeat;
+                        display: block;
+                        background-size: cover;
+                        width: 13.5px;
+                        height: 15px;
+                        position: relative;
+                        // background-position-y: -10px;
+                        // top: -15px;
+                        bottom: 15px;
+                        right: 20px;
+                        
+                    }
+                }
+
+
+                &--padding{
+                    margin: 0;
+                    padding: 0;
+                    list-style-type: none;
+                    font-family: "Montserrat" , "Arial" , sans-serif;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 20px;
+                    opacity: 1;
+                    color: #000000;
+                    width: 304px;
+                    height: 40px;
+                    }
+                }
+        } 
+    }
+}
+.main__news--right--nature--headerin{
+    border: 1px solid #CECECE;
+    margin-top: 41.5px;
+}
+.main__news--right--nature--list--item1{
+    display: flex;
+    width: 448px;
+    height: 113px;
+    margin-left: 20px;
+}
